@@ -23,7 +23,8 @@
     line-height: 34px;
     padding: 0;
     margin: 0;
-    width: 89%;
+    width: 90%;
+    outline: none;
 }
 
 .search-form__button {

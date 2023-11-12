@@ -25,6 +25,8 @@
     padding: 9px 147px;
     transition: .3s;
     margin: 78px auto 90px;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .movies__button:hover {

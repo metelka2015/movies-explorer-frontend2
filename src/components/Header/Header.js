@@ -16,7 +16,7 @@ export function Header() {
     function handleMenuLinkActive({isActive}) {
         return `header__link ${isActive ? "header__link_active" : ""}`;
     }
-    let loggedIn = true;
+    let loggedIn = false;
   return (
     <header className={`header header_theme_${location.pathname === "/" ? "blue" : "dark"}`}>
         <div className="header__container">
