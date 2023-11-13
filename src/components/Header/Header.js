@@ -5,8 +5,6 @@ import logo from "../../images/logo.svg";
 import './Header.css';
 import account from "../../images/icon-account.svg";
 
-
-
 export function Header() {
     const location = useLocation();
     const [ menuOpen, setMenuOpen ] = React.useState(false);
