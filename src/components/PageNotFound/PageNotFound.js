@@ -8,9 +8,11 @@ export function PageNotFound () {
 
     return (
         <div className="page-not-found">
-            <h2 className="page-not-found__title">404</h2>
-            <p className="page-not-found__subtitle">Страница не найдена</p>
-            <NavLink className="page-not-found__link" onClick={() => navigate(-1)}>Назад</NavLink>
+            <div className="page-not-found__cover">
+                <h2 className="page-not-found__title">404</h2>
+                <p className="page-not-found__subtitle">Страница не найдена</p>
+                <NavLink className="page-not-found__link" onClick={() => navigate(-1)}>Назад</NavLink>
+            </div>            
         </div>
     )
 }

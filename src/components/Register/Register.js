@@ -4,7 +4,8 @@ import { AuthForm } from '../AuthForm/AuthForm.js';
 export function Register() {
     return (
         <section className="register">
-            <AuthForm
+            <div className='register__cover'>
+                 <AuthForm
                 title="Добро пожаловать!"
                 textButton="Зарегистрироваться"
                 link="Войти"
@@ -17,6 +18,8 @@ export function Register() {
                         <span className="authform__error-message"></span>
                     </label>                 
                 } />
+            </div>
+           
         </section>
     )
   }

@@ -1,4 +1,9 @@
-.profile {
+.profile {   
+    margin: 0 auto;
+    background-color: #202020;    
+}
+
+.profile__cover {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +11,6 @@
     max-width: 1280px;
     margin: 0 auto;
     padding-top: 74px;
-    background-color: #202020;
     color: #fff;
 }
 
@@ -146,7 +150,7 @@
 }
 
 @media screen and (max-width: 768px) {
-      .profile {
+      .profile__cover {
         padding-top: 236px;
       }
 
@@ -172,7 +176,7 @@
 }
 
 @media screen and (max-width: 490px) {
-    .profile {
+    .profile__cover {
         padding-top: 70px;
         min-width: 320px;
         }

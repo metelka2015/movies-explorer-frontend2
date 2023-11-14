@@ -10,8 +10,10 @@ export function SavedMovies () {
         <>
             <Header />
                 <section className="saved-movies" aria-label="сохранённые фильмы">
-                    <SearchForm />
-                    <MoviesCardList />
+                    <div className="saved-movies__cover">
+                        <SearchForm />
+                        <MoviesCardList />
+                    </div>                    
                 </section>
             <Footer />
         </>

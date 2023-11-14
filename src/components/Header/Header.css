@@ -1,9 +1,6 @@
-.header {
-    max-width: 1280px;
-    min-height: 74px;    
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 18px 70px;
+.header {    
+  margin: 0 auto;   
+  min-width: 320px;
 }
 
 .header_theme_blue {
@@ -12,6 +9,14 @@
 
 .header_theme_dark {
     background-color: #202020;
+}
+
+.header__cover {
+    max-width: 1280px;
+    min-height: 74px;    
+    box-sizing: border-box;
+    padding: 18px 70px;
+    margin: 0 auto;
 }
 
 .header__container {
@@ -44,8 +49,6 @@
     color: #fff;
     transition: .3s;
     cursor: pointer;
-    /*margin: 0;
-    padding: 0;*/
   }
 
   .header__link:hover {
@@ -68,8 +71,7 @@
     align-items: center;
     margin-right: 4px;
     gap: 7px;
-    cursor: pointer;
-    
+    cursor: pointer;    
     }
     
   .header__profile-link:hover {
@@ -128,9 +130,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .header {
+    .header__cover {
       padding-left: 30px;
-      padding-right: 30px;
+      padding-right: 30px;      
     }
 
     .header__profile-link {
@@ -159,7 +161,7 @@
   }
 
   @media screen and (max-width: 450px) {
-    .header {
+    .header__cover {
       padding-left: 14px;
       padding-right: 14px;
       min-width: 320px;
